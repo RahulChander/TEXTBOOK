@@ -1,0 +1,63 @@
+# 1
+
+a = 'All '
+b = 'work '
+c = 'and '
+d = 'no '
+e = 'play '
+f = 'makes '
+g = 'Jack '
+h = 'a '
+i = 'dull '
+j = 'boy'
+
+print(a+b+c+d+e+f+g+h+i+j)
+
+# 2
+
+a = 6 * (1-2)
+# Print whatever is calculated
+print (a)
+
+# 3 above
+
+# 4
+
+bruce = 6
+print(bruce + 4)
+
+# 5
+
+p = float(10000)
+n = float(12)
+r = 8/100
+t = float(input())
+
+var1 = (1.0 + (r/n))**(n*t)
+print (p * var1)
+
+# 6
+
+print (5 % 2)
+print (9 % 5)
+print (15 % 12)
+print (12 % 15)
+print (5 % 2)
+print (0 % 7)
+print (7 % 0)
+
+# 7
+
+a = 51 % 24
+b = 14 + a
+if b > 24:
+  b = b - 24
+
+# 8
+
+hoursnow = input()
+alarm = input()
+a= alarm % 24
+b = hoursnow + a
+if b > 24:
+  b = b - 24
