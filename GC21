@@ -1,0 +1,42 @@
+import turtle
+
+
+# 1
+
+for i in (0,10,1):
+    print ("We love turtles!")
+
+# 2
+
+#a: Colour Screen, Camera, Button and Screen
+#b: Take pictures, store the, make calls
+
+# 3
+
+Array = ['January', 'February','March', 'April','May','June','July', 'August','September','October', 'November', 'December']
+
+for i in Array:
+    print ('One of the months in the year is ' + i)
+
+#4
+
+a = 3645 % 360
+print(a)
+
+# 5
+
+xs = [12, 10, 32, 3, 66, 17, 42, 99, 20]
+for i in xs:
+    print (i)
+
+for i in xs:
+    j = i**2
+    i = str(i)
+    j = str(j)
+    print(i + j)
+total = 0
+for i in xs:
+    total = total + i
+    for i in xs:
+    total = total + i
+
