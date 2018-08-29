@@ -1,0 +1,26 @@
+# 1
+
+import turtle
+
+def drawsquare(t,sz):
+    for i in range(4):
+        t.forward(sz)
+        t.left(90)
+
+wn = turtle.Screen()
+wn.bgcolor("light green")
+
+Choo = turtle.Turtle()
+Choo.color("pink")
+Choo.pensize(3)
+i = 0
+while i < 4:
+
+    drawsquare(Choo,20)
+    Choo.penup()
+    Choo.forward(40)
+    Choo.pendown()
+    i = i +1
+
+wn.mainloop()
+
