@@ -38,5 +38,115 @@ total = 0
 for i in xs:
     total = total + i
     for i in xs:
-    total = total + i
+        total = total + i
 
+# 6
+
+wn = turtle.Screen()
+abc = turtle.Turtle()
+
+for i in range(0,3):
+    abc.forward(100)
+    abc.left(120)
+
+for i in range(0,4):
+    abc.forward(100)
+    abc.left(90)
+
+for i in range(0,6):
+    abc.forward(100)
+    abc.left(60)
+
+for i in range(0,8):
+    abc.forward(100)
+    abc.left(45)
+
+wn.mainloop()
+
+# 7
+
+wn = turtle.Screen()
+pirate = turtle.Turtle()
+
+Array = [160, -43, 270, -97, -43, 200, -940, 17, -86]
+
+direction = 0
+for w in Array:
+    direction = direction + w
+    pirate.left(w)
+    pirate.forward(100)
+
+wn.mainloop()
+
+#8
+a = str(direction % 360)
+print (a)
+
+#9
+a = (360/18)
+print (a)
+
+#10
+import turtle # Set up the Turtle
+wn = turtle.Screen() #Set up the screen
+tess = turtle.Turtle() # Define the actual turtle
+tess.right(90) # Turn right 90 degrees
+tess.left(3600) # No change
+tess.right(-90) # Turn left 90 degrees
+tess.speed(10) # Set a new turtle speed
+tess.left(3600) # No change
+tess.speed(0) # Make it stop
+tess.left(3645) # Turn left 45 degrees
+tess.forward(-100) # Go backwards 100 steps
+
+#11
+
+import turtle
+wn = turtle.Screen()
+Turt = turtle.Turtle()
+
+Turt.hideturtle()
+
+for i in range(0,5):
+    Turt.forward(200)
+    Turt.right(324)
+
+wn.mainloop()
+
+#12
+
+import turtle
+wn = turtle.Screen()
+Nic = turtle.Turtle()
+
+wn.bgcolor("white")
+Nic.color("blue")
+Nic.shape("turtle")
+Nic.width("45")
+Nic.stamp()
+
+for i in range(0,12):
+    Nic.penup()
+    Nic.forward(160)
+    Nic.pendown()
+    Nic.forward(20)
+    Nic.penup()
+    Nic.forward(20)
+    Nic.stamp()
+    Nic.backward(200)
+    Nic.right(30)
+
+wn.mainloop()
+
+#13
+
+a = (type(Nic))
+print (a)
+
+#14
+
+# Bale
+
+#15
+
+# Neither vipers nor venomous
