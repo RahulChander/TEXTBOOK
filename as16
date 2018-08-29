@@ -24,3 +24,65 @@ while i < 4:
 
 wn.mainloop()
 
+##########################
+
+# 2
+
+
+import turtle
+
+def drawsquare(t,sz):
+    for i in range(4):
+        t.forward(sz)
+        t.left(90)
+
+wn = turtle.Screen()
+wn.bgcolor("light green")
+
+Choo = turtle.Turtle()
+Choo.color("pink")
+Choo.pensize(3)
+i = 0
+while i < 5:
+    w = 20*i + 20
+    drawsquare(Choo,w)
+    Choo.penup()
+    Choo.right(90)
+    Choo.forward(10)
+    Choo.right(90)
+    Choo.forward(10)
+    Choo.right(180)
+    Choo.pendown()
+    i = i +1
+
+wn.mainloop()
+
+####################
+
+#3
+
+import turtle
+x = 0
+n = int(input("Please enter the number of sides"))
+angle = (180*(n-2))/n
+x = int(angle)
+
+def drawpoly(t,n,sz):
+    t.forward(sz)
+    t.right(n)
+
+wn = turtle.Screen()
+wn.bgcolor("light green")
+
+Choo = turtle.Turtle()
+Choo.color("pink")
+Choo.pensize(3)
+i = 0
+
+while i < x:
+    drawpoly(Choo,angle,50)
+
+    i = i +1
+
+wn.mainloop()
+
